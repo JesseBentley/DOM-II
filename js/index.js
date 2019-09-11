@@ -33,7 +33,7 @@ let anyPInHome = document.querySelectorAll('.home p');
 
 anyPInHome.forEach(para => {
   para.addEventListener('copy', event => {
-    alert('I see you are copying some text, it will be CAPITALIZED!');
+    alert('Copywrite protection time.');
     const selection = document.getSelection();
     event.clipboardData.setData(
       'text/plain',
