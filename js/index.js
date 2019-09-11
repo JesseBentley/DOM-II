@@ -6,7 +6,6 @@ images.forEach(image => {
   image.addEventListener('mouseenter', event => {
     image.style.transform = 'scale(1.5)';
     image.style.transition = 'transform 0.5s';
-    //TweenLite.to(image, 1, { x: 100, ease: Elastic.easeOut });
   });
 
   image.addEventListener('mouseleave', event => {
@@ -46,7 +45,7 @@ anyPInHome.forEach(para => {
 document.addEventListener('keydown', event => {
   let keyHit = event.key;
   let keyCody = event.keyCode;
-  alert(`You hit the ${keyHit} key, be more careful`);
+  alert(`You hit the ${keyHit} key`);
 });
 
 window.addEventListener('resize', event => {
@@ -55,7 +54,7 @@ window.addEventListener('resize', event => {
 
   location.reload();
 
-  alert('Mobile view is at 500px and tablet is at 800px');
+  alert('Mobile view is at 500px and tablet is at 800px. Why you shrinking my browser bruh?');
   alert(`My new height is ${newHeight} and new width is ${newWidth}`);
 });
 
@@ -63,7 +62,7 @@ let destinationButtons = document.querySelectorAll('.content-pick .btn');
 destinationButtons.forEach(button => {
   button.addEventListener('click', event => {
     button.style.background = 'green';
-    alert('Insert interesting message about your trip being full here.');
+    alert('No trip for you! - Trip Nazi 2019');
   });
 });
 
