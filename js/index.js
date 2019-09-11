@@ -55,7 +55,7 @@ window.addEventListener('resize', event => {
 
   location.reload();
 
-  alert('Is it getting smaller in here, or is that just me?');
+  alert('Mobile view is at 500px and tablet is at 800px');
   alert(`My new height is ${newHeight} and new width is ${newWidth}`);
 });
 
@@ -63,7 +63,7 @@ let destinationButtons = document.querySelectorAll('.content-pick .btn');
 destinationButtons.forEach(button => {
   button.addEventListener('click', event => {
     button.style.background = 'green';
-    alert('This trip is currently full');
+    alert('Insert interesting message about your trip being full here.');
   });
 });
 
