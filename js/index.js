@@ -1,5 +1,4 @@
 // Your code goes here
-// Your code goes here
 const navLinks = document.querySelectorAll('.nav a');
 const introLogo = document.querySelector('.intro img');
 const headerLogo = document.querySelector('.logo-heading');
